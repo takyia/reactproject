@@ -4,13 +4,13 @@ import HeroSection from "../HeroSection";
 import Cards from "../Cards";
 import Footer from "../Footer";
 
-function Home() {
+function Services() {
   return (
     <>
-      <HeroSection />
+      <Cards />
       <Footer />
     </>
   );
 }
 
-export default Home;
+export default Services;

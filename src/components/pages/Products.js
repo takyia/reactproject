@@ -1,16 +1,17 @@
 import React from "react";
 import "../../App.css";
 import HeroSection from "../HeroSection";
-import Cards from "../Cards";
+import SmallCards from "../SmallCards";
 import Footer from "../Footer";
+import About from "../About"
 
-function Home() {
+function Products() {
   return (
     <>
-      <HeroSection />
+      <About />
       <Footer />
     </>
   );
 }
 
-export default Home;
+export default Products;
